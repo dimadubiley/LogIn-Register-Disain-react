@@ -48,14 +48,15 @@ export function Register() {
                         <label class="inp">Пароль:</label> <br />
                         <div id="pass">
                             <input type="password" id="inputPass" /><br />
-                            <button id="buttonPass">
-                                <img src="/Vector.png" alt="" id="ies"></img>
-                            </button>
                         </div>
                     </div>
                     <div id="divForAgree">
-                        <input type="checkbox" value='1' id="saveInfo" />
-                        <p id="iAgree">Я, ознайомлений з Політикою конфіденційності з обробки та захисту персональних даних</p>
+                        <div id="divForCheckboxSaveInfo">
+                            <input type="checkbox" value='1' id="saveInfo" />
+                        </div>
+                        <div id="divForTextIAgree">
+                            <p id="iAgree">Я, ознайомлений з Політикою конфіденційності з обробки та захисту персональних даних</p>
+                        </div>
                     </div>
                     <br />
 
