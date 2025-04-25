@@ -521,6 +521,7 @@
         object-fit: cover;
     }
 }
+
 @media(max-width: 932px) {
     #wrappLogIn {
         display: flex;
